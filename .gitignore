@@ -1,0 +1,9 @@
+# Ignore environment variables (crucial for security)
+.env
+
+# Ignore Python cache and virtual environment
+__pycache__/
+venv/
+
+# Ignore the local ChromaDB storage folder
+memory_db/
